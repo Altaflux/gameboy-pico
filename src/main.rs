@@ -143,7 +143,7 @@ fn main() -> ! {
     let cart = gb_rom.into_cartridge();
     let boot_rom = gb_core::hardware::boot_rom::Bootrom::new(Some(
         gb_core::hardware::boot_rom::BootromData::from_bytes(include_bytes!(
-            "/home/plozano/gbrom/dmg_boot.bin"
+            "C:\\Users\\PabloLozano\\Projects\\pico\\dmg\\dmg_boot.bin"
         )),
     ));
     let mut led_state = false;
@@ -276,7 +276,7 @@ impl Screen for GameboyLineBufferDisplay {
 }
 
 pub fn load_rom_from_path() -> gb_core::hardware::rom::Rom<'static> {
-    let rom_f = include_bytes!("/home/plozano/gbrom/sml.gb");
+    let rom_f = include_bytes!("C:\\Users\\PabloLozano\\Projects\\pico\\dmg\\sml.gb");
     gb_core::hardware::rom::Rom::from_bytes(rom_f)
 }
 

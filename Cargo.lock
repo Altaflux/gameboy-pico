@@ -449,19 +449,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "ili9341_pio"
-version = "0.1.0"
-dependencies = [
- "display-interface",
- "embedded-dma",
- "embedded-graphics-core",
- "embedded-hal",
- "pio",
- "pio-proc",
- "rp-pico",
-]
-
-[[package]]
 name = "indexmap"
 version = "1.9.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -986,7 +973,6 @@ dependencies = [
  "embedded-time",
  "gb-core",
  "ili9341",
- "ili9341_pio",
  "libm",
  "panic-probe",
  "pio",

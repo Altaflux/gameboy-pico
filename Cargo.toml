@@ -21,18 +21,18 @@ embedded-dma = "0.1.2"
 #rp2040-hal = "0.5.0"
 # We're using a Pico by default on this template
 #rp-pico = "0.4"
-rp-pico = { path = "/home/plozano/projects/pico/rp-hal/boards/rp-pico"}
+rp-pico = { path = "C:\\Users\\PabloLozano\\Projects\\pico\\rp-hal\\boards\\rp-pico"}
 
-ili9341 = { path = "/home/plozano/projects/ili9341-rs", features = ["embedded-graphics-core", "graphics"], default-features=false }
+ili9341 = { path = "C:\\Users\\PabloLozano\\Projects\\pico\\ili9341-rs", features = ["embedded-graphics-core", "graphics"], default-features=false }
 #ili9341 = {version = "0.5.0", features = ["embedded-graphics-core", "graphics"], default-features=false }
 display-interface = "0.4.1"
 embedded-graphics = "0.7.1"
 embedded-graphics-core = "0.3"
 display-interface-spi = "0.4.0"
 unroll = "0.1.5"
-ili9341_pio = {path = "/home/plozano/projects/pico/ili9341_pio"}
+#ili9341_pio = {path = "/home/plozano/projects/pico/ili9341_pio"}
 
-gb-core = {path = "/home/plozano/projects/rust-gb/gb-core"}
+gb-core = {path = "C:\\Users\\PabloLozano\\Projects\\pico\\rust-gb\\rust-gb\\gb-core"}
 # but you can use any BSP. Uncomment this to use the pro_micro_rp2040 BSP instead
 # sparkfun-pro-micro-rp2040 = "0.3"
 
